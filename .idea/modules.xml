@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Quiz Generator.iml" filepath="$PROJECT_DIR$/Quiz Generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Quiz-Generator.iml" filepath="$PROJECT_DIR$/.idea/Quiz-Generator.iml" />
     </modules>
   </component>
 </project>
