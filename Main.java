@@ -1,9 +1,6 @@
-
-import javax.swing.JFrame;
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
@@ -12,8 +9,8 @@ import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
 
 
 public class Main extends Application {
@@ -21,7 +18,7 @@ public class Main extends Application {
   public void start(Stage primaryStage) {
     try {  
       Scene scene = new Scene(getSaveMenu(), 500, 500);
-      scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+      //scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
       primaryStage.setScene(scene);
       primaryStage.setTitle("Quiz Generator");
       primaryStage.show();
